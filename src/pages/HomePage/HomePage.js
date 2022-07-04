@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import styles from './Homepage.module.scss';
+import styles from './HomePage.module.scss';
 import Recipe from './components/Recipe';
-import { data } from '../data/recipes';
+import { data } from '../../data/recipes';
 
 export default function Content() {
   const recipes = data;
