@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import styles from './Content.module.scss';
-import Recipe from './Recipe';
+import styles from './Homepage.module.scss';
+import Recipe from './components/Recipe';
 import { data } from '../data/recipes';
 
 export default function Content() {
